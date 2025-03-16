@@ -7,6 +7,8 @@ export default function Routers() {
     <Routes>
       <Route element={<BaseTemplate />}>
         <Route index path="/" element={<HomeScreen />} />
+        <Route index path="/contas-a-pagar" element={<HomeScreen />} />
+        <Route index path="/contas-a-receber" element={<HomeScreen />} />
       </Route>
     </Routes>
   );
